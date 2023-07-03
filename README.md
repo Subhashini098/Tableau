@@ -1,8 +1,17 @@
 # Tableau
+
+# Tableau Dashboard for Start Up Date
 The startup world is flourishing. There are hundreds of new companies being founded each day and venture capital has become a substantial asset class with yearly investments exceeding $100B in the US alone. Crunchbase 2013 Snapshot dataset provides a glimpse into this exciting world.
 This diverse dataset contains information about the startup ecosystem: organizations, individuals, company news, funding rounds, acquisitions, and IPOs.
 
 This dashboard can be used by the following users to make better decisions based on their data.
+
+# Pre-processing
+
+This dataset was collected from Crunchbase consisting of funding, investments, and other info about startups. There are 49,437 data points in this dataset. Each point represents a startup company. The data includes 40 different attributes. Location details include the country, state, and city. The startup's first and last funding and its founding date are included.
+Additionally, we offer links that provide important information about the type of industry these companies operate in and the markets they serve. Funding amounts and types of funding are primarily what the rest of the information is based upon. Another attribute of the startup model is called status, which indicates whether the startup is operating, acquired, or closed. All the null values are removed using the dropna. The resultant dataset contains 18926 data points.” 
+
+
 
 
 # The Dataset used for Dashboard
